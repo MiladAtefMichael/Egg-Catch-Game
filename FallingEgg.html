@@ -1,0 +1,43 @@
+<html>
+    <head>
+        
+        <style>
+            body{
+                background-image:url("images/background.jpg") ;
+                
+                background-size: cover;
+            }
+             .flip
+            {
+                transform:rotateY(180deg)
+            }
+            img{
+                width:100px;height: 100px;
+                position: absolute;
+            }
+            .score{
+                width:50px;height: 50px;
+                position: absolute;
+                background-color: chocolate;
+                margin: 20px;
+                padding: 10px;
+                border-radius: 10px ;
+                border-style: solid;
+                border-color: brown;
+                text-align: center;
+            }
+            h1{
+                color: rgb(149, 0, 255);
+                text-align: center;
+                font-style: bold;
+                
+            }
+        </style>
+    </head>
+<body>
+<div class="score"><p>score</p></div>
+   <!-- <img src="images/egg.png" id="egg"/>-->
+    <img src="images/basket.png" id="basket"/>
+    <script src="FaillingEggScript.js"></script>
+</body>
+</html>
